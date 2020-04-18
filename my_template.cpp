@@ -10,8 +10,9 @@ using namespace std;
 #define pi(x)	printf("%d\n",x)
 #define pl(x)	printf("%lld\n",x)
 #define ps(s)	printf("%s\n",s)
-#define deb(x) cout << #x << "=" << x << endl
-#define deb2(x, y) cout << #x << "=" << x << "," << #y << "=" << y << endl
+#define pqs             priority_queue<int,vi,greater<int> >
+#define setbits(x)      __builtin_popcountll(x)
+#define zrobits(x)      __builtin_ctzll(x)
 #define pb push_back
 #define mp make_pair
 #define F first
@@ -21,6 +22,10 @@ using namespace std;
 #define sortall(x) sort(all(x))
 #define tr(it, a) for(auto it = a.begin(); it != a.end(); it++)
 #define PI 3.1415926535897932384626
+#define inf             1e18
+#define ps(x,y)         fixed<<setprecision(y)<<x
+#define mk(arr,n,type)  type *arr=new type[n];
+#define w(x)            int x; cin>>x; while(x--)
 typedef pair<int, int>	pii;
 typedef pair<ll, ll>	pl;
 typedef vector<int>		vi;
@@ -34,6 +39,14 @@ void ipgraph(int m);
 void dfs(int u, int par);
 const int mod = 1000000007;
 const int N = 3e5, M = N;
+void abhijeetgu()
+{
+    ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0);
+#ifndef ONLINE_JUDGE
+    freopen("input.txt", "r", stdin);
+    freopen("output.txt", "w", stdout);
+#endif
+}
 //=======================
 
 vi g[N];
