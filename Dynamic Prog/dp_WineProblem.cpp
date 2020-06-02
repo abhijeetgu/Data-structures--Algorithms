@@ -1,4 +1,3 @@
-// WineProblem
 #include <iostream>
 using namespace std;
 
@@ -34,7 +33,7 @@ int BottomUp(int *wine,int n)
         while(s<=en)
         {
             int endwindow=s+len-1;
-            dp[s][en]=max(wine[s]*year+dp[s+1][endwindow],wine[endwindow]*year+dp[s][endwindow-1]);
+            dp[s][endwindow]=max(wine[s]*year+dp[s+1][endwindow],wine[endwindow]*year+dp[s][endwindow-1]);
             s++;
 
         }
