@@ -1,4 +1,4 @@
-//calculate range of bigger prime number
+//Calculate range of bigger prime number
 #include<iostream>
 using namespace std;
 
