@@ -15,8 +15,8 @@ using namespace std;
 #define zrobits(x)      __builtin_ctzll(x)
 #define pb push_back
 #define mp make_pair
-#define F first
-#define S second
+#define f first
+#define s second
 #define all(x) x.begin(), x.end()
 #define clr(x) memset(x, 0, sizeof(x))
 #define sortall(x) sort(all(x))
