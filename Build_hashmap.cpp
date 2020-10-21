@@ -45,6 +45,6 @@ int main()
     for(auto it:h)
     {
         cout<<it.first<<"->"<<it.second;
-        cout<<endl;
+        cout<<"\n";
     }
 }
